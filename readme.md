@@ -44,9 +44,12 @@ git branch -D <name>
 git checkout <branchName>
 ```
 
+8. 合并分支
+```shell
+git merge <otherBranch>
+```
 
 
-8. 
 
 
 
