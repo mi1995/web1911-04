@@ -18,36 +18,7 @@ Initialized empty Git repository in E:/柠檬学院前端/阶四/1911-04直播/0
 git add <文件路径|文件加路径>
 ```
 
-3. 提交暂存（确认存储）
-```shell
-git commit -m "描述"
-```
 
-4. 查看分支
-```shell
-git branch
-```
-
-5. 创建分支
-```shell
-git branch <name>
-```
-在哪个分支上使用branch 创建分支 就是从这个分支上复制一个新的副本
-
-6. 删除分支
-```shell
-git branch -D <name>
-```
-
-7. 切换分支
-```shell
-git checkout <branchName>
-```
-
-8. 合并分支
-```shell
-git merge <otherBranch>
-```
 
 2. 查询当前有哪些远程仓库
 ```shell
