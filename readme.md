@@ -80,12 +80,6 @@ git remote add github https://github.com/mi1995/web1911-04.git
 git remote 
 ```
 
-3. 删除远程仓库
-git remote remove <仓库名称>
-```shell
-# 例：
-git remote remove github
-```
 
 4. 上传代码到远程仓库
 git push <仓库名称> <分支名称>
