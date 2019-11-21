@@ -55,6 +55,8 @@ git merge <otherBranch>
 git config --golbal use.email "填入你的邮箱地址"
 git config --golbal use.name "填入你的名字"
 ```
+
+-----------------------------------------------------
 ## 远程仓库
 1. github 这个免费托管代码的网站
 [github] (https://github.com/)
