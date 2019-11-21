@@ -69,8 +69,38 @@ git remote add github https://github.com/mi1995/web1911-04.git
 ```
 >>>>>>> 合并
 
+<<<<<<< HEAD
 # 第二次绑定
 git push 
 ```
 =======
 >>>>>>> 22:笔记.md
+=======
+2. 查询当前有哪些远程仓库
+```shell
+git remote 
+```
+
+3. 删除远程仓库
+git remote remove <仓库名称>
+```shell
+# 例：
+git remote remove github
+```
+
+4. 上传代码到远程仓库
+git push <仓库名称> <分支名称>
+```shell
+git push github dev 
+```
+
+5. 绑定默认分支
+git push -u <仓库名称> <分支名称>
+```shell
+# 第一次绑定
+git push -u <仓库名称> <分支名称>
+
+# 第二次绑定
+git push 
+```
+>>>>>>> 添加了远程仓库管理部分
